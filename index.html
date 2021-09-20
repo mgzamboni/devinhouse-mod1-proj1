@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="icon" href="img/todo-icon.png" type="image/icon type">
+        <title>To-do List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-pic">
+                <img src="img/todo-icon.png" alt="To-do icon" width="45px" height="45px">
+            </div>
+            <div class="logo">
+                <h1>To-do List</h1>
+            </div>
+        </header>
+        <form id="form">
+            <input type="text" id="itemInput" name="tarefa" placeholder="Insira uma nova tarefa à lista...">
+            <button type="submit">Adicionar</button>
+        </form>
+        <div id="itemList"></div>
+        <script type="module" src="main.js"></script>
+        <footer>
+            <div>
+                <h3 class="credits">
+                    Created by Matheus Zamboni
+                </h3>
+            </div>
+        </footer>
+    </body>
+</html>
